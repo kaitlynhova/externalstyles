@@ -1,0 +1,163 @@
+// Typography
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: $lucida-grande;
+$header-font-family: $base-font-family;
+$standard-line-height: 25px;
+
+// Font Sizes
+$base-font-size: 18px;
+$header-font-size: $base-font-size * 3;
+$responsive-header-font-size: $header-font-size * 0.75;
+$subheadline-font-size: $base-font-size;
+$responsive-subheadline-font-size: $base-font-size * 0.75;
+$h1-font-size: $base-font-size * 2.25;
+$responsive-h1-font-size: $h1-font-size * 0.75;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$responsive-h3-font-size: $h3-font-size * 0.75;
+$h4-font-size: $base-font-size * 1.5; // sub header
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+$p-font-size: $base-font-size;
+$link-footer-font-size: $base-font-size / 1.15;
+$copyright-footer-font-size: $base-font-size / 1.55;
+$smaller-p-font-size: $base-font-size / 1.55;
+$light-font-weight: 100;
+$bold-font-weight: 600;
+$base-mobile-input-size: 16px;
+
+// botton standard
+
+// Padding
+$outer-padding: 60px;
+$h1-bottom-padding: 30px;
+$responsive-h1-bottom-padding: $h1-bottom-padding * 0.5;
+$button-padding: 20px;
+$button-padding-full: 20px 60px;
+$horizontal-button-padding: 60px;
+$input-padding: 5px;
+$standard-padding: 30px;
+$input-inner-padding: 20px;
+$vertical-button-padding: 10px;
+$sub-header-bottom-padding: 15px;
+$responsive-sub-header-bottom-padding: $sub-header-bottom-padding * 0.5;
+$header-padding-top: 10px;
+$padding-vertical: 4em;
+$padding-horizontal: 6em;
+$regular-padding-vertical: 1em;
+$medium-padding-vertical: 2em;
+$medium-padding-horizontal: 3em;
+$text-vertical-pad: 1.5em;
+$mobile-text-vertical-pad: 0.5em;
+$square-size: 2em;
+$square-margin: 1em;
+$button-padding-horizontal: 6em;
+$label-font-weight: 400;
+$logo-size: 60px;
+$icon-size: 3em;
+$benefit-icon-size: 40px;
+$social-icon-size: 30px;
+$checkbox-border-width: 2px;
+
+// Font weight
+$light-font-weight: 100;
+
+// Line height
+$base-line-height: 1.25;
+$header-line-height: 1;
+$secondary-line-height: 1;
+
+//Top nav height
+$top-nav-height: 75px;
+$top-nav-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+
+//container
+$max-container-width: $standard-padding*40;
+
+// hero heights
+$desktop-hero-height:  450px;
+$mobile-hero-height:  650px;
+
+//hero overlays
+$before-background-gradient1: rgba(255,255,255,0);
+$before-background-gradient2: rgba(0,0,0,0.05);
+$before-background-gradient3: rgba(0,0,0,0.07);
+$before-background-gradient4: rgba(0,0,0,0.5);
+$before-background-gradient5: rgba(0,0,0,0.7);
+$before-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+$after-background-dark: rgba(0,0,0,0.5);
+$after-background-darker: rgba(0,0,0,0.7);
+$after-background: rgba(0,0,0,0.2);
+$after-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+
+// Other Sizes
+$base-border-radius: 0;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Lists
+$list_margin: 15px;
+
+// Colors
+
+//WWC TEAL
+$teal: #007a7c;
+$teal-rgba: rgba(0, 122, 124, 0.8);
+
+//TEALS FOR BUTTONS & LINKS (versions of the ^^official teal)
+$teal-light: #029393;
+$teal-light-rgba: rgba(2, 147, 147, 0.6);
+$teal-dark: #024f4f;
+$teal-dark-rgba: rgba(2,79,79,.6);
+$link-teal: #67bebf;
+
+
+// GRAY & BLACK
+$lightest-gray-rgba: rgba(200, 197, 197, 0.3);
+$light-gray: #6d6d6d;
+$light-gray-rgba: rgba(109, 109, 109, 0.7);
+$lighter-gray: #A7A9AB;
+$medium-gray: #d4d4d4;
+$gray-border: #e3e3e3;
+$dark-gray: #454545;
+$dark-gray-rgba: rgba(69, 69, 69, 0.7);
+$darker-gray-rgba: rgba(69, 69, 69, 0.7);
+$blackish: #19191A;
+$blackish-rgba: rgba(25, 25, 26, 0.5);
+
+// ALERTS
+$red: #e04a32;
+$red-rgba: rgba(224,74,50, 0.9);
+
+// NAVY
+$navy-bluish: #0f283c;
+$navy-bluish-light: #153f54;
+$navy-bluish-rgba: rgba(15,40,60, 0.8);
+
+// BACKGROUND COLORS ( KEEP IT TO 2 )
+$white: #ffffff;
+$whitish: #f5f5f5;
+$whitish-rgba: rgba(245,245,245,.9); //only used on About page right now.
+
+// Font Colors
+$base-font-color: $dark-gray;
+$dark-font-color: #272323;
+
+// Link Colors
+$hover-link-color: $teal;
+
+//buttons
+$teal-button-bg: $teal;
+$teal-button-hover: $teal-light;
+$teal-button-focus: $teal-dark;
+
+// Flash Colors
+$alert-color: $red;
+$error-color: $red;
+$notice-color: $teal;
+$success-color: $teal;
+
+// Border color
+$base-border-color: $whitish;
+$base-border: 1px solid $base-border-color;
